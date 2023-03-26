@@ -2,11 +2,11 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     event.preventDefault(); // empêcher la soumission par défaut du formulaire
 
     // récupérer les données du formulaire
-    var username = document.getElementById("username").value;
+    var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
 
     // vérifier les données utilisateur et mot de passe
-    if (username === "utilisateur" && password === "motdepasse") {
+    if (email === "utilisateur" && password === "motdepasse") {
         // rediriger l'utilisateur vers la page d'accueil
         window.location.href = "page-d-accueil.html";
     } else {
