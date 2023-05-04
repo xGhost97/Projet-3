@@ -13,20 +13,18 @@
 
 <body>
     <header>
-        <div class="en-tete">
-            <h1>Sophie Bluel</h1>
 
-            <nav>
-                <ul>
-                    <li>projets</li>
-                    <li>contact</li>
-                    <li>login</li>
-                    <li><i class="fab fa-instagram"></i></li>
-                </ul>
-            </nav>
-        </div>
+	
 
-        <h2>Architecte d'intérieur</h2>
+        <h1>Sophie Bluel <span>Architecte d'intérieur</span></h1>
+        <nav>
+            <ul>
+                <li>projets</li>
+                <li>contact</li>
+                <li>login</li>
+                <li><img src="./assets/icons/instagram.png" alt="Instagram"></li>
+            </ul>
+        </nav>
     </header>
 
     <h3>Log in</h3>
@@ -37,9 +35,11 @@
             <input type="email" name="email" id="email"><br>
             <label for="password">Mot de passe</label>
             <input type="password" name="password" id="password"><br>
+            <div id="error-message"></div>
             <button type="submit">Se connecter</button>
+           
         </form>
-        <div id="error-msg" style="display: none;"></div>
+        
     </div>
 
     <p><a href="#">Mot de passe oublié</a></p>
